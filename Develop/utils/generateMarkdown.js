@@ -12,8 +12,10 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data, gitInfo) {
-  return `#**${data.title}**
-    ${data.badge}
+  return `
+  # **${data.title}**
+    
+  ${data.badge}
 
     ## Description
 
