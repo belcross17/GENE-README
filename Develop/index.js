@@ -76,7 +76,7 @@ inquirer
                 if (err) {
                     throw err;
                 } else {
-                    console.log("README successfully created!")
+                    console.log("README file successfully created!")
                 };
             })
         })
