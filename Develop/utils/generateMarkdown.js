@@ -17,51 +17,65 @@ function generateMarkdown(data, gitInfo) {
     
   ${data.badge}
 
-    ## Description
+  ## Description
 
-    ${data.description}
+  ${data.description}
 
-    ## Table of Contents
+  ## Table of Contents
 
-    -[Description](#Description)
-    -[Installation](#Installation)
-    -[Usage](#Usage)
-    -[License](#License)
-    -[Contributors](#Contributors)
-    -[Test](#Test)
-    -[Repository Link](#Repository)
-    -[GitHub Info](#GitHub)
+  - [Description](#Description)
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [License](#License)
+  - [Contributors](#Contributors)
+  - [Test](#Test)
+  - [Questions](#Questions)
+  - [Repository Link](#Repository)
+  - [GitHub Info](#GitHub)
 
-    ## Installation
+  ## Installation
 
-    ${data.installation}
+  ${data.installation}
 
-    ## Usage
+  ## Usage
 
-    ${data.usage}
+  ${data.usage}
 
-    ## License
+  ## License
 
-    ${data.license}
+  ${data.license}
 
-    ## Contributors
+  ## Contributors
 
-    ${data.contributing}
+  ${data.contributing}
 
-    ## Test
+  ## Test
 
-    ${data.test}
+  ${data.test}
 
-    ## Repository
+  ## Questions
 
-    - [Project-Repo](${data.repo})
+  - What is your project title?
+  - Please provide the badges links that you want
+  - Please provide your project's description
+  - Please provide the installation instructions
+  - Please provide the project usage
+  - Please provide the project license or your badge link
+  - Please provide the contributing parties
+  - Please provide the project tests
+  - What is your github user name?
+  - What is your repo link?
 
-    ## GitHub
+  ## Repository
 
-    ![Image](${gitInfo.githubImage})
-    - ${gitInfo.name}
-    - [Github-Profile](${gitInfo.profile})
-    - ${gitInfo.email}
+  - [Project-Repo](${data.repo})
+
+  ## GitHub
+
+  ![Image](${gitInfo.githubImage})
+  - ${gitInfo.name}
+  - [Github-Profile](${gitInfo.profile})
+  - ${gitInfo.email}
 
 `;
 }
