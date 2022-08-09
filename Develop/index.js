@@ -1,5 +1,6 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
+const axios = require("axios");
 const fs = require ("fs");
 const generateMarkdown = require('./utils/generateMarkdown');
 
@@ -58,7 +59,11 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+inquirer
+    .prompt(questions)
+    .then(function(data){
+        const URL = `https://api.github.com/users/${data.username}`;
+    })
 
 // TODO: Create a function to initialize app
 function init() {}
