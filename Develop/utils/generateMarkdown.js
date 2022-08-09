@@ -72,7 +72,7 @@ function generateMarkdown(data, gitInfo) {
 
   ## GitHub
 
-  ![Image](${gitInfo.githubImage})
+  ![Image](${gitInfo.gitImage})
   - ${gitInfo.name}
   - [Github-Profile](${gitInfo.profile})
   - ${gitInfo.email}

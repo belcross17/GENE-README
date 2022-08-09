@@ -5,7 +5,7 @@
 
   ## Description
 
-  This project was created with the sole purpose of helping young developers, to create new and high-quality README files  without the need to actually create it themselves. In this project, I use node.js and I also installed npm inquirer and axion. I also included the sections that are the most common to be included in a high-quality README file.
+  This project was created with the sole purpose of helping young developers, to create new and high-quality README files without the need to actually create it themselves. In this project, I use node.js and I also installed npm inquirer and axion. I also included the sections that are the most common to be included in a high-quality README file.
 
   ## Table of Contents
 
@@ -21,7 +21,7 @@
 
   ## Installation
 
-  First, the user needs to clone the repository to their computer in order to be able to use  the app. 
+  First, the user needs to clone the repository to their computer in order to be able to use the app, then the user needs to install inquirer, and axion. At this moment the user will b able to run the app with no issues, all theres left to do is to answer the questions.
 
   ## Usage
 
@@ -58,7 +58,7 @@
 
   ## GitHub
 
-  ![Image](undefined)
+  ![Image](https://avatars.githubusercontent.com/u/103907742?v=4)
   - brayan arias
   - [Github-Profile](https://github.com/belcross17)
   - null
