@@ -63,6 +63,23 @@ inquirer
     .prompt(questions)
     .then(function(data){
         const URL = `https://api.github.com/users/${data.username}`;
+        axios.get(URL)
+        .then(function(response) {
+            const gitInfo = {
+                gitImage: response.data.avatar_url,
+                email: response.data.email,
+                profile: response.data.html_url,
+                name: response.data.name
+            };
+
+            fs.writeFile("README.md", generateMarkdown(data, gitInfo), function(err) {
+                if (err) {
+                    throw err;
+                } else {
+                    console.log("README successfully created!")
+                };
+            })
+        })
     })
 
 // TODO: Create a function to initialize app
