@@ -6,7 +6,11 @@
   ## Description
 
   This project was created with the sole purpose of helping young developers, to create new and high-quality README files without the need to actually create it themselves. In this project, I use node.js and I also installed npm inquirer and axion. I also included the sections that are the most common to be included in a high-quality README file.
-
+  
+  ## Link to Walkthrough Video
+  
+  https://drive.google.com/file/d/1eG1jNt0uFhSkVaeHD2RtX0NxAEOXVI1E/view
+ 
   ## Table of Contents
 
   - [Description](#Description)
